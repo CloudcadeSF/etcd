@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/raft/quorum"
-	pb "CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/raft/tracker"
+	"github.com/CloudcadeSF/etcd/raft/quorum"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/tracker"
 )
 
 // rawNodeAdapter is essentially a lint that makes sure that RawNode implements

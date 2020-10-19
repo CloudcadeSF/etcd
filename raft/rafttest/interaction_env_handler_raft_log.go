@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"CloudcadeSF/etcd/raft"
+	"github.com/CloudcadeSF/etcd/raft"
 )
 
 func (env *InteractionEnv) writeErr(err error) {

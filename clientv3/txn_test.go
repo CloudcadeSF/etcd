@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestTxnPanics(t *testing.T) {

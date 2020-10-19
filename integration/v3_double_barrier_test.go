@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3/concurrency"
-	"CloudcadeSF/etcd/contrib/recipes"
+	"github.com/CloudcadeSF/etcd/clientv3/concurrency"
+	"github.com/CloudcadeSF/etcd/contrib/recipes"
 )
 
 func TestDoubleBarrier(t *testing.T) {

@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestRoleError(t *testing.T) {

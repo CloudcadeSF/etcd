@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/auth/authpb"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/auth/authpb"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
 
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"

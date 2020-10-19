@@ -29,8 +29,8 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/version"
 )
 
 type actionAssertingHTTPClient struct {

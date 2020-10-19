@@ -324,7 +324,7 @@
 		]
 	},
 	{
-		"project": "CloudcadeSF/etcd",
+		"project": "github.com/CloudcadeSF/etcd",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

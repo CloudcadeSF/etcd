@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 	"google.golang.org/grpc"
 )
 

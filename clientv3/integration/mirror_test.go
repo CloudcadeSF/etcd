@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3/mirror"
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/clientv3/mirror"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestMirrorSync(t *testing.T) {

@@ -22,12 +22,12 @@ import (
 	"sort"
 	"testing"
 
-	"CloudcadeSF/etcd/etcdserver"
-	"CloudcadeSF/etcd/etcdserver/api/membership"
-	"CloudcadeSF/etcd/etcdserver/api/v2error"
-	"CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/membership"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2error"
+	"github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

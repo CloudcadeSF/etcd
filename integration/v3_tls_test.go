@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 
 	"google.golang.org/grpc"
 )

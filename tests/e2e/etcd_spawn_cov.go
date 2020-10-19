@@ -24,9 +24,9 @@ import (
 	"syscall"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/expect"
-	"CloudcadeSF/etcd/pkg/fileutil"
-	"CloudcadeSF/etcd/pkg/flags"
+	"github.com/CloudcadeSF/etcd/pkg/expect"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/flags"
 )
 
 const noOutputLineCount = 2 // cov-enabled binaries emit PASS and coverage count lines

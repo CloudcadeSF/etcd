@@ -21,9 +21,9 @@ import (
 	"os"
 	"sync"
 
-	"CloudcadeSF/etcd/pkg/crc"
-	"CloudcadeSF/etcd/pkg/ioutil"
-	"CloudcadeSF/etcd/wal/walpb"
+	"github.com/CloudcadeSF/etcd/pkg/crc"
+	"github.com/CloudcadeSF/etcd/pkg/ioutil"
+	"github.com/CloudcadeSF/etcd/wal/walpb"
 )
 
 // walPageBytes is the alignment for flushing records to the backing Writer.

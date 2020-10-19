@@ -21,7 +21,7 @@ import (
 	"log"
 	"sync"
 
-	"CloudcadeSF/etcd/etcdserver/api/snap"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/snap"
 )
 
 // a key-value store backed by raft

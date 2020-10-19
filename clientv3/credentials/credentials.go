@@ -22,8 +22,8 @@ import (
 	"net"
 	"sync"
 
-	"CloudcadeSF/etcd/clientv3/balancer/resolver/endpoint"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/CloudcadeSF/etcd/clientv3/balancer/resolver/endpoint"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
 	grpccredentials "google.golang.org/grpc/credentials"
 )
 

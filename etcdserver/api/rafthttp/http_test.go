@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver/api/snap"
-	"CloudcadeSF/etcd/pkg/pbutil"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/snap"
+	"github.com/CloudcadeSF/etcd/pkg/pbutil"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"go.uber.org/zap"
 )

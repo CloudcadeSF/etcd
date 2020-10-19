@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

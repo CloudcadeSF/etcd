@@ -20,7 +20,7 @@ import (
 	"time"
 	"unsafe"
 
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestNodeExternClone(t *testing.T) {

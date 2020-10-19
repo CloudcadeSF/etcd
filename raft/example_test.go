@@ -15,7 +15,7 @@
 package raft
 
 import (
-	pb "CloudcadeSF/etcd/raft/raftpb"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 func applyToStore(ents []pb.Entry)    {}

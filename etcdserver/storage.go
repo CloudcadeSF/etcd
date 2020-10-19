@@ -17,13 +17,13 @@ package etcdserver
 import (
 	"io"
 
-	"CloudcadeSF/etcd/etcdserver/api/snap"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/pkg/pbutil"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/wal"
-	"CloudcadeSF/etcd/wal/walpb"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/snap"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/pkg/pbutil"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/wal"
+	"github.com/CloudcadeSF/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

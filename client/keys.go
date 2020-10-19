@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"CloudcadeSF/etcd/pkg/pathutil"
+	"github.com/CloudcadeSF/etcd/pkg/pathutil"
 	"net/http"
 	"net/url"
 	"strconv"

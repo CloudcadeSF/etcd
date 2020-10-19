@@ -19,8 +19,8 @@ package v2store_test
 import (
 	"testing"
 
-	"CloudcadeSF/etcd/etcdserver/api/v2store"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2store"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 type v2TestStore struct {

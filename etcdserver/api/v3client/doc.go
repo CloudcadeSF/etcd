@@ -19,8 +19,8 @@
 //	import (
 //		"context"
 //
-//		"CloudcadeSF/etcd/embed"
-//		"CloudcadeSF/etcd/etcdserver/api/v3client"
+//		"github.com/CloudcadeSF/etcd/embed"
+//		"github.com/CloudcadeSF/etcd/etcdserver/api/v3client"
 //	)
 //
 //	...

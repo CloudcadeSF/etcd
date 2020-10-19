@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	spb "CloudcadeSF/etcd/mvcc/mvccpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	spb "github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 var (

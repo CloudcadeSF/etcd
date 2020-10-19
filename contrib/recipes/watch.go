@@ -17,8 +17,8 @@ package recipe
 import (
 	"context"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 // WaitEvents waits on a key until it observes the given events and returns the final one.

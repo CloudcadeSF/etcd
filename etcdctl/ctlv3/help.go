@@ -25,7 +25,7 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

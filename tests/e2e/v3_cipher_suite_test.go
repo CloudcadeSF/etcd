@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/version"
 )
 
 func TestV3CurlCipherSuitesValid(t *testing.T)    { testV3CurlCipherSuites(t, true) }

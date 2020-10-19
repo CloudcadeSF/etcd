@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	"CloudcadeSF/etcd/pkg/flags"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/CloudcadeSF/etcd/pkg/flags"
 
 	"github.com/spf13/cobra"
 )

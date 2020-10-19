@@ -20,7 +20,7 @@ import (
 	"os"
 	"strings"
 
-	"CloudcadeSF/etcd/etcdctl/ctlv3/command"
+	"github.com/CloudcadeSF/etcd/etcdctl/ctlv3/command"
 )
 
 func Start() {

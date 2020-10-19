@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 )
 
 // UniqueURLs contains unique URLs

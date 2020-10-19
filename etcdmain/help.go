@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"CloudcadeSF/etcd/embed"
+	"github.com/CloudcadeSF/etcd/embed"
 	"golang.org/x/crypto/bcrypt"
 )
 

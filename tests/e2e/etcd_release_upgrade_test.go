@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/fileutil"
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/version"
 )
 
 // TestReleaseUpgrade ensures that changes to master branch does not affect

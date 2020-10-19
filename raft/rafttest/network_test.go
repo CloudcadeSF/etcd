@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 func TestNetworkDrop(t *testing.T) {

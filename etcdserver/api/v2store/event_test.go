@@ -17,7 +17,7 @@ package v2store
 import (
 	"testing"
 
-	"CloudcadeSF/etcd/etcdserver/api/v2error"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2error"
 )
 
 // TestEventQueue tests a queue with capacity = 100

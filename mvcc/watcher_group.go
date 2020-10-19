@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"math"
 
-	"CloudcadeSF/etcd/mvcc/mvccpb"
-	"CloudcadeSF/etcd/pkg/adt"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/pkg/adt"
 )
 
 var (

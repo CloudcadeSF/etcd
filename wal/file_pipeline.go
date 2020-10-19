@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
 
 	"go.uber.org/zap"
 )

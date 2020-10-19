@@ -17,8 +17,8 @@ package raft
 import (
 	"fmt"
 
-	pb "CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/raft/tracker"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/tracker"
 )
 
 // Status contains information about this Raft peer and its view of the system.

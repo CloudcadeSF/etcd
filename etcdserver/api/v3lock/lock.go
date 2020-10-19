@@ -17,9 +17,9 @@ package v3lock
 import (
 	"context"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/concurrency"
-	"CloudcadeSF/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/concurrency"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3lock/v3lockpb"
 )
 
 type lockServer struct {

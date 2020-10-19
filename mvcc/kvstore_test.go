@@ -29,12 +29,12 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/lease"
-	"CloudcadeSF/etcd/mvcc/backend"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
-	"CloudcadeSF/etcd/pkg/schedule"
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/pkg/traceutil"
+	"github.com/CloudcadeSF/etcd/lease"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/pkg/schedule"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

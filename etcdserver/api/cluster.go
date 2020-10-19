@@ -15,8 +15,8 @@
 package api
 
 import (
-	"CloudcadeSF/etcd/etcdserver/api/membership"
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/membership"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

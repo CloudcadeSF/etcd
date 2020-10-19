@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strconv"
 
-	v3 "CloudcadeSF/etcd/clientv3"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
 
 	"github.com/spf13/cobra"
 )

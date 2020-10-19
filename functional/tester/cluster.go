@@ -29,9 +29,9 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/functional/rpcpb"
-	"CloudcadeSF/etcd/pkg/debugutil"
-	"CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/functional/rpcpb"
+	"github.com/CloudcadeSF/etcd/pkg/debugutil"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"

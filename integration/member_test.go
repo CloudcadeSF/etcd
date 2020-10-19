@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/client"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestPauseMember(t *testing.T) {

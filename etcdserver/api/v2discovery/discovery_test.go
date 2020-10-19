@@ -28,7 +28,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/client"
 
 	"github.com/jonboulle/clockwork"
 )

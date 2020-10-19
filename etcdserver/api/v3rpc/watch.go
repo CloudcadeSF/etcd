@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/auth"
-	"CloudcadeSF/etcd/etcdserver"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/mvcc"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/auth"
+	"github.com/CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/mvcc"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 
 	"go.uber.org/zap"
 )

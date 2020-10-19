@@ -17,13 +17,13 @@ package main
 import (
 	"encoding/binary"
 	"fmt"
-	"CloudcadeSF/etcd/auth/authpb"
+	"github.com/CloudcadeSF/etcd/auth/authpb"
 	"path/filepath"
 
-	"CloudcadeSF/etcd/lease/leasepb"
-	"CloudcadeSF/etcd/mvcc"
-	"CloudcadeSF/etcd/mvcc/backend"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/lease/leasepb"
+	"github.com/CloudcadeSF/etcd/mvcc"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 
 	bolt "go.etcd.io/bbolt"
 )

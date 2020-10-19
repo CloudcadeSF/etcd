@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"CloudcadeSF/etcd/contrib/recipes"
+	"github.com/CloudcadeSF/etcd/contrib/recipes"
 )
 
 const (

@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/pkg/transport"
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 )
 
 func TestCtlV3MoveLeaderSecure(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"path"
 	"strings"
 
-	"CloudcadeSF/etcd/etcdserver/api"
-	"CloudcadeSF/etcd/etcdserver/api/v2auth"
-	"CloudcadeSF/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/CloudcadeSF/etcd/etcdserver/api"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2auth"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2http/httptypes"
 
 	"go.uber.org/zap"
 )

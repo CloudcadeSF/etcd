@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/client"
 )
 
 // printResponseKey only supports to print key correctly.

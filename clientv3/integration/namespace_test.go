@@ -19,11 +19,11 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/namespace"
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/namespace"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestNamespacePutGet(t *testing.T) {

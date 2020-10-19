@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"testing"
 
-	"CloudcadeSF/etcd/auth/authpb"
-	epb "CloudcadeSF/etcd/etcdserver/api/v3election/v3electionpb"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/auth/authpb"
+	epb "github.com/CloudcadeSF/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )

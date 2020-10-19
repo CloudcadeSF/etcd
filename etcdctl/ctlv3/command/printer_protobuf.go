@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"os"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	mvccpb "CloudcadeSF/etcd/mvcc/mvccpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	mvccpb "github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 type pbPrinter struct{ printer }

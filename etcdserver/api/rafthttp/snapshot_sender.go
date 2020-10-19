@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver/api/snap"
-	"CloudcadeSF/etcd/pkg/httputil"
-	pioutil "CloudcadeSF/etcd/pkg/ioutil"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/snap"
+	"github.com/CloudcadeSF/etcd/pkg/httputil"
+	pioutil "github.com/CloudcadeSF/etcd/pkg/ioutil"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft"
 
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"

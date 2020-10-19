@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"CloudcadeSF/etcd/client"
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 // TestV2NoRetryEOF tests destructive api calls won't retry on a disconnection.

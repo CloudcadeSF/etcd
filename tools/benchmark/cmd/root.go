@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 
 	"github.com/spf13/cobra"
 	"gopkg.in/cheggaaa/pb.v1"

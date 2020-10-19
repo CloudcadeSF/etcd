@@ -20,9 +20,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"CloudcadeSF/etcd/lease"
-	"CloudcadeSF/etcd/mvcc"
-	"CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/lease"
+	"github.com/CloudcadeSF/etcd/mvcc"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
 
 	"github.com/spf13/cobra"
 )

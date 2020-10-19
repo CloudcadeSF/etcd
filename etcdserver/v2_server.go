@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver/api/v2store"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2store"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 )
 
 type RequestV2 pb.Request

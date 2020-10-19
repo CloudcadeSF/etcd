@@ -21,10 +21,10 @@ import (
 	"os"
 	"sync"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/naming"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/naming"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 
 	"golang.org/x/time/rate"
 	gnaming "google.golang.org/grpc/naming"

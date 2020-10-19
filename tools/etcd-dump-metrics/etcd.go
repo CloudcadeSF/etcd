@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/embed"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/embed"
 
 	"go.uber.org/zap"
 )

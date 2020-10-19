@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 )
 
 func TestMemberList(t *testing.T) {

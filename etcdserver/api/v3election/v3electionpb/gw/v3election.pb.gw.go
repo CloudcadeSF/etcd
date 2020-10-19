@@ -9,7 +9,7 @@ It translates gRPC into RESTful JSON APIs.
 package gw
 
 import (
-	"CloudcadeSF/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3election/v3electionpb"
 	"io"
 	"net/http"
 

@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/concurrency"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/concurrency"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestLeaseNotFoundError(t *testing.T) {

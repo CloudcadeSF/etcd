@@ -18,7 +18,7 @@ import (
 	"context"
 	"math"
 
-	v3 "CloudcadeSF/etcd/clientv3"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
 )
 
 // STM is an interface for software transactional memory.

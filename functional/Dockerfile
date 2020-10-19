@@ -20,12 +20,12 @@ RUN rm -rf ${GOROOT} \
   && mkdir -p ${GOPATH}/src ${GOPATH}/bin \
   && go version
 
-RUN mkdir -p ${GOPATH}/src/CloudcadeSF/etcd
-ADD . ${GOPATH}/src/CloudcadeSF/etcd
+RUN mkdir -p ${GOPATH}/src/github.com/CloudcadeSF/etcd
+ADD . ${GOPATH}/src/github.com/CloudcadeSF/etcd
 ADD ./functional.yaml /functional.yaml
 
 RUN go get -v go.etcd.io/gofail \
-  && pushd ${GOPATH}/src/CloudcadeSF/etcd \
+  && pushd ${GOPATH}/src/github.com/CloudcadeSF/etcd \
   && GO_BUILD_FLAGS="-v" ./build \
   && mkdir -p /bin \
   && cp ./bin/etcd /bin/etcd \
@@ -39,4 +39,4 @@ RUN go get -v go.etcd.io/gofail \
   && cp ./bin/etcd-tester /bin/etcd-tester \
   && go build -v -o /bin/benchmark ./tools/benchmark \
   && popd \
-  && rm -rf ${GOPATH}/src/CloudcadeSF/etcd
+  && rm -rf ${GOPATH}/src/github.com/CloudcadeSF/etcd

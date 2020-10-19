@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3"
 )
 
 func TestCtlV3Alarm(t *testing.T) {

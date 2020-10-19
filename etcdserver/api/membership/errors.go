@@ -17,7 +17,7 @@ package membership
 import (
 	"errors"
 
-	"CloudcadeSF/etcd/etcdserver/api/v2error"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2error"
 )
 
 var (

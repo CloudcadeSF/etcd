@@ -17,7 +17,7 @@ package command
 import (
 	"fmt"
 
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"github.com/spf13/cobra"
 )

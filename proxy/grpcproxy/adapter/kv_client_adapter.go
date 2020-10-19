@@ -17,7 +17,7 @@ package adapter
 import (
 	"context"
 
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 
 	grpc "google.golang.org/grpc"
 )

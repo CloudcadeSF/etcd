@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/raft"
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 type node struct {

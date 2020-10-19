@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/etcdserver"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc"
-	"CloudcadeSF/etcd/proxy/grpcproxy/adapter"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc"
+	"github.com/CloudcadeSF/etcd/proxy/grpcproxy/adapter"
 )
 
 // New creates a clientv3 client that wraps an in-process EtcdServer. Instead

@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/mvcc"
-	"CloudcadeSF/etcd/mvcc/backend"
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/pkg/traceutil"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/mvcc"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

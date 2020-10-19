@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/wal/walpb"
+	"github.com/CloudcadeSF/etcd/wal/walpb"
 )
 
 var (

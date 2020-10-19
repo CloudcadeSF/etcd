@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"CloudcadeSF/etcd/functional/rpcpb"
+	"github.com/CloudcadeSF/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

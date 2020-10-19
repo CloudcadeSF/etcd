@@ -15,9 +15,9 @@
 package mockstorage
 
 import (
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/raft"
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/raft"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 type storageRecorder struct {

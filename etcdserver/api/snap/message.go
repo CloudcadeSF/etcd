@@ -17,8 +17,8 @@ package snap
 import (
 	"io"
 
-	"CloudcadeSF/etcd/pkg/ioutil"
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/pkg/ioutil"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 // Message is a struct that contains a raft Message and a ReadCloser. The type

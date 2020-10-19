@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestSRVGetCluster(t *testing.T) {

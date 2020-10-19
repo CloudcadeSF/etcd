@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

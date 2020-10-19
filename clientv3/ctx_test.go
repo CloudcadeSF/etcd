@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/CloudcadeSF/etcd/version"
 	"google.golang.org/grpc/metadata"
 )
 

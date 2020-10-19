@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/client"
-	"CloudcadeSF/etcd/etcdserver"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func init() {

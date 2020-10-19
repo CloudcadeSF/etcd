@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"CloudcadeSF/etcd/mvcc/backend"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 func UpdateConsistentIndex(be backend.Backend, index uint64) {

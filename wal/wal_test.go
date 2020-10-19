@@ -27,10 +27,10 @@ import (
 	"regexp"
 	"testing"
 
-	"CloudcadeSF/etcd/pkg/fileutil"
-	"CloudcadeSF/etcd/pkg/pbutil"
-	"CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/wal/walpb"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/pbutil"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

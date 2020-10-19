@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver/api/v2error"
-	"CloudcadeSF/etcd/etcdserver/api/v2store"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2error"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2store"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 type StoreCloser interface {

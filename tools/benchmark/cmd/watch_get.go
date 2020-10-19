@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/pkg/report"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"gopkg.in/cheggaaa/pb.v1"

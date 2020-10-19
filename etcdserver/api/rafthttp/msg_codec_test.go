@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 func TestMessage(t *testing.T) {

@@ -18,7 +18,7 @@ package mirror
 import (
 	"context"
 
-	"CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3"
 )
 
 const (

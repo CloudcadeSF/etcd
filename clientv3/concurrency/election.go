@@ -19,9 +19,9 @@ import (
 	"errors"
 	"fmt"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 var (

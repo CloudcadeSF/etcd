@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"CloudcadeSF/etcd/embed"
+	"github.com/CloudcadeSF/etcd/embed"
 
 	"go.uber.org/zap"
 )

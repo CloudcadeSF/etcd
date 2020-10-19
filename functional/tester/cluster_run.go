@@ -19,8 +19,8 @@ import (
 	"os"
 	"time"
 
-	"CloudcadeSF/etcd/functional/rpcpb"
-	"CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/functional/rpcpb"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
 
 	"go.uber.org/zap"
 )

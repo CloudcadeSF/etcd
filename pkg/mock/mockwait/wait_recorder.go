@@ -15,8 +15,8 @@
 package mockwait
 
 import (
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/pkg/wait"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/wait"
 )
 
 type WaitRecorder struct {

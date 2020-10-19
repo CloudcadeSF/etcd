@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 )
 
 var exampleEndpoints []string

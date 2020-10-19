@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"CloudcadeSF/etcd/raft"
+	"github.com/CloudcadeSF/etcd/raft"
 )
 
 type logLevels [6]string

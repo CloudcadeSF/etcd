@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/fileutil"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestCtlV2Set(t *testing.T)          { testCtlV2Set(t, &configNoTLS, false) }

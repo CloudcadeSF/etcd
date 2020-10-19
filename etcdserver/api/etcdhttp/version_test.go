@@ -20,7 +20,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/version"
 )
 
 func TestServeVersion(t *testing.T) {

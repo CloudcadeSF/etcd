@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 )
 
 func TestCompactOp(t *testing.T) {

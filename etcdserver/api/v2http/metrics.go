@@ -20,9 +20,9 @@ import (
 
 	"net/http"
 
-	"CloudcadeSF/etcd/etcdserver/api/v2error"
-	"CloudcadeSF/etcd/etcdserver/api/v2http/httptypes"
-	"CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2error"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

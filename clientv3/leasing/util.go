@@ -17,8 +17,8 @@ package leasing
 import (
 	"bytes"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	v3pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	v3pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 )
 
 func compareInt64(a, b int64) int {

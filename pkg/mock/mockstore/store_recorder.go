@@ -17,8 +17,8 @@ package mockstore
 import (
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver/api/v2store"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2store"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 // StoreRecorder provides a Store interface with a testutil.Recorder

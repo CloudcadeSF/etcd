@@ -18,8 +18,8 @@ import (
 	"context"
 	"log"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/clientv3util"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/clientv3util"
 )
 
 func ExampleKeyMissing() {

@@ -19,8 +19,8 @@ import (
 	"sort"
 	"strings"
 
-	"CloudcadeSF/etcd/raft/quorum"
-	pb "CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/quorum"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 // Config reflects the configuration tracked in a ProgressTracker.

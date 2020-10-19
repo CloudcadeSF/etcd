@@ -20,7 +20,7 @@ import (
 	"strings"
 	"sync"
 
-	"CloudcadeSF/etcd/etcdserver/api/v2error"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2error"
 )
 
 type EventHistory struct {

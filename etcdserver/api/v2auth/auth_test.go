@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver"
-	"CloudcadeSF/etcd/etcdserver/api/v2error"
-	"CloudcadeSF/etcd/etcdserver/api/v2store"
-	"CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2error"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2store"
+	"github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 
 	"go.uber.org/zap"
 )

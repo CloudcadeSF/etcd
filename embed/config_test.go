@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 
 	"sigs.k8s.io/yaml"
 )

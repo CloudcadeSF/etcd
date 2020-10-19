@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/raft/confchange"
-	"CloudcadeSF/etcd/raft/quorum"
-	pb "CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/raft/tracker"
+	"github.com/CloudcadeSF/etcd/raft/confchange"
+	"github.com/CloudcadeSF/etcd/raft/quorum"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/tracker"
 )
 
 // None is a placeholder node ID used when there is no leader.

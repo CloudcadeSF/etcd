@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 // a network interface

@@ -17,7 +17,7 @@ package clientv3
 import (
 	"testing"
 
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 func TestEvent(t *testing.T) {

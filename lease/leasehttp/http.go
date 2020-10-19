@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"time"
 
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/lease"
-	"CloudcadeSF/etcd/lease/leasepb"
-	"CloudcadeSF/etcd/pkg/httputil"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/lease"
+	"github.com/CloudcadeSF/etcd/lease/leasepb"
+	"github.com/CloudcadeSF/etcd/pkg/httputil"
 )
 
 var (

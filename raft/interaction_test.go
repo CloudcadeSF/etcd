@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"CloudcadeSF/etcd/raft/rafttest"
+	"github.com/CloudcadeSF/etcd/raft/rafttest"
 )
 
 func TestInteraction(t *testing.T) {

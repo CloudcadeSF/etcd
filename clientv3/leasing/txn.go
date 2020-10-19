@@ -18,8 +18,8 @@ import (
 	"context"
 	"strings"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	v3pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	v3pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 )
 
 type txnLeasing struct {

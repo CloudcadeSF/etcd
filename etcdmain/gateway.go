@@ -21,7 +21,7 @@ import (
 	"os"
 	"time"
 
-	"CloudcadeSF/etcd/proxy/tcpproxy"
+	"github.com/CloudcadeSF/etcd/proxy/tcpproxy"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

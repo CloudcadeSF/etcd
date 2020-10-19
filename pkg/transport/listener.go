@@ -31,8 +31,8 @@ import (
 	"strings"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/fileutil"
-	"CloudcadeSF/etcd/pkg/tlsutil"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/tlsutil"
 
 	"go.uber.org/zap"
 )

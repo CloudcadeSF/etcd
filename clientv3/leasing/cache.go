@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	v3pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	v3pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 const revokeBackoff = 2 * time.Second

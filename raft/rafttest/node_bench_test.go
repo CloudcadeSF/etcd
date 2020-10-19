@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/raft"
+	"github.com/CloudcadeSF/etcd/raft"
 )
 
 func BenchmarkProposal3Nodes(b *testing.B) {

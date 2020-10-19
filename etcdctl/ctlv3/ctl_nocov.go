@@ -16,7 +16,7 @@
 
 package ctlv3
 
-import "CloudcadeSF/etcd/etcdctl/ctlv3/command"
+import "github.com/CloudcadeSF/etcd/etcdctl/ctlv3/command"
 
 func Start() {
 	rootCmd.SetUsageFunc(usageFunc)

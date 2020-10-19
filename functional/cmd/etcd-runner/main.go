@@ -16,7 +16,7 @@
 // against a fault injected cluster.
 package main
 
-import "CloudcadeSF/etcd/functional/runner"
+import "github.com/CloudcadeSF/etcd/functional/runner"
 
 func main() {
 	runner.Start()

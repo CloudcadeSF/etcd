@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3"
 )
 
 func ExampleCluster_memberList() {

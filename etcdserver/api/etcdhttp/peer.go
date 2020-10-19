@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"strings"
 
-	"CloudcadeSF/etcd/etcdserver"
-	"CloudcadeSF/etcd/etcdserver/api"
-	"CloudcadeSF/etcd/etcdserver/api/membership"
-	"CloudcadeSF/etcd/etcdserver/api/rafthttp"
-	"CloudcadeSF/etcd/lease/leasehttp"
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/etcdserver/api"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/membership"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/rafthttp"
+	"github.com/CloudcadeSF/etcd/lease/leasehttp"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

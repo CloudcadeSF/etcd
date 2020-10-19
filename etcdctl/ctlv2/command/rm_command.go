@@ -18,7 +18,7 @@ import (
 	"errors"
 
 	"github.com/urfave/cli"
-	"CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/client"
 )
 
 // NewRemoveCommand returns the CLI command for "rm".

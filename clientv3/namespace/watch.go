@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3"
 )
 
 type watcherPrefix struct {

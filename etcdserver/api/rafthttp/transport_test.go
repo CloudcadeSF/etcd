@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	stats "CloudcadeSF/etcd/etcdserver/api/v2stats"
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft/raftpb"
+	stats "github.com/CloudcadeSF/etcd/etcdserver/api/v2stats"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 
 	"github.com/xiang90/probing"
 )

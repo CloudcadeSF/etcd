@@ -17,9 +17,9 @@ package recipe
 import (
 	"context"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/concurrency"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/concurrency"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 type RWMutex struct {

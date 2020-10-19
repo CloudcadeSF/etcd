@@ -18,7 +18,7 @@ import (
 	"flag"
 	"strings"
 
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 func main() {

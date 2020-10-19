@@ -14,7 +14,7 @@
 
 package clientv3
 
-import pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+import pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 
 type opType int
 

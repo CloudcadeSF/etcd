@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/bgentry/speakeasy"
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/pkg/flags"
-	"CloudcadeSF/etcd/pkg/srv"
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/pkg/flags"
+	"github.com/CloudcadeSF/etcd/pkg/srv"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

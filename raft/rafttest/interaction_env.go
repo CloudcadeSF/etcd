@@ -19,8 +19,8 @@ import (
 	"math"
 	"strings"
 
-	"CloudcadeSF/etcd/raft"
-	pb "CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 // InteractionOpts groups the options for an InteractionEnv.

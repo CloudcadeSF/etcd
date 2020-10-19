@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	"CloudcadeSF/etcd/auth/authpb"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/auth/authpb"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 	"google.golang.org/grpc"
 )
 

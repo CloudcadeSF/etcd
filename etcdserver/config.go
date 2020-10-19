@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/netutil"
-	"CloudcadeSF/etcd/pkg/transport"
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/pkg/netutil"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 
 	bolt "go.etcd.io/bbolt"
 	"go.uber.org/zap"

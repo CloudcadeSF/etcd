@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

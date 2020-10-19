@@ -21,7 +21,7 @@ Launch an embedded etcd server using the configuration defaults:
 		"log"
 		"time"
 
-		"CloudcadeSF/etcd/embed"
+		"github.com/CloudcadeSF/etcd/embed"
 	)
 
 	func main() {

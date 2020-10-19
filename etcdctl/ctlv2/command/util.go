@@ -28,8 +28,8 @@ import (
 	"syscall"
 	"time"
 
-	"CloudcadeSF/etcd/client"
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 
 	"github.com/bgentry/speakeasy"
 	"github.com/urfave/cli"

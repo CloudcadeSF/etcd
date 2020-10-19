@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	pb "CloudcadeSF/etcd/mvcc/mvccpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	pb "github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 
 	"github.com/spf13/cobra"
 )

@@ -17,7 +17,7 @@ package integration
 import (
 	"io/ioutil"
 
-	"CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3"
 
 	"google.golang.org/grpc/grpclog"
 )

@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"CloudcadeSF/etcd/auth"
+	"github.com/CloudcadeSF/etcd/auth"
 )
 
 // TestStartEtcdWrongToken ensures that StartEtcd with wrong configs returns with error.

@@ -17,7 +17,7 @@ package embed
 import (
 	"path/filepath"
 
-	"CloudcadeSF/etcd/wal"
+	"github.com/CloudcadeSF/etcd/wal"
 )
 
 func isMemberInitialized(cfg *Config) bool {

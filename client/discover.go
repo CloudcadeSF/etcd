@@ -15,7 +15,7 @@
 package client
 
 import (
-	"CloudcadeSF/etcd/pkg/srv"
+	"github.com/CloudcadeSF/etcd/pkg/srv"
 )
 
 // Discoverer is an interface that wraps the Discover method.

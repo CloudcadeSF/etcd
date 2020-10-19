@@ -19,7 +19,7 @@ import (
 	"math"
 	"sync"
 
-	"CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3"
 
 	"golang.org/x/time/rate"
 )

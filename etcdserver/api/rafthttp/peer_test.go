@@ -17,7 +17,7 @@ package rafthttp
 import (
 	"testing"
 
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 func TestPeerPick(t *testing.T) {

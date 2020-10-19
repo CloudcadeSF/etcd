@@ -26,11 +26,11 @@ import (
 	"runtime"
 	"strings"
 
-	"CloudcadeSF/etcd/embed"
-	"CloudcadeSF/etcd/pkg/flags"
-	"CloudcadeSF/etcd/pkg/logutil"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/embed"
+	"github.com/CloudcadeSF/etcd/pkg/flags"
+	"github.com/CloudcadeSF/etcd/pkg/logutil"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"go.uber.org/zap"
 	"sigs.k8s.io/yaml"

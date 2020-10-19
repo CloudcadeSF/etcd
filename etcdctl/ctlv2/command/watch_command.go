@@ -21,7 +21,7 @@ import (
 	"os"
 	"os/signal"
 
-	"CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/client"
 
 	"github.com/urfave/cli"
 )

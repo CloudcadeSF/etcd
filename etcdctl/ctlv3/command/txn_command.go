@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"CloudcadeSF/etcd/clientv3"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 
 	"github.com/spf13/cobra"
 )

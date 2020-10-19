@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"CloudcadeSF/etcd/pkg/expect"
+	"github.com/CloudcadeSF/etcd/pkg/expect"
 )
 
 type proxyEtcdProcess struct {

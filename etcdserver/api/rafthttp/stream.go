@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	stats "CloudcadeSF/etcd/etcdserver/api/v2stats"
-	"CloudcadeSF/etcd/pkg/httputil"
-	"CloudcadeSF/etcd/pkg/transport"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/version"
+	stats "github.com/CloudcadeSF/etcd/etcdserver/api/v2stats"
+	"github.com/CloudcadeSF/etcd/pkg/httputil"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

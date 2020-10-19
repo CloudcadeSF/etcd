@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"CloudcadeSF/etcd/etcdctl/ctlv2/command"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/etcdctl/ctlv2/command"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"github.com/urfave/cli"
 )

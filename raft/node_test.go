@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 // readyWithTimeout selects from n.Ready() with a 1-second timeout. It

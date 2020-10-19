@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3"
 )
 
 // kvOrdering ensures that serialized requests do not return

@@ -23,7 +23,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("CloudcadeSF/etcd", "pkg/osutil")
+	plog = capnslog.NewPackageLogger("github.com/CloudcadeSF/etcd", "pkg/osutil")
 
 	// support to override setting SIG_DFL so tests don't terminate early
 	setDflSignal = dflSignal

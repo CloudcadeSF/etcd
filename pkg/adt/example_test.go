@@ -17,7 +17,7 @@ package adt_test
 import (
 	"fmt"
 
-	"CloudcadeSF/etcd/pkg/adt"
+	"github.com/CloudcadeSF/etcd/pkg/adt"
 )
 
 func Example() {

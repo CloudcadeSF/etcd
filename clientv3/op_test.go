@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 )
 
 // TestOpWithSort tests if WithSort(ASCEND, KEY) and WithLimit are specified,

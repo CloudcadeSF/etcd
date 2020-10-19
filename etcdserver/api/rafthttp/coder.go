@@ -14,7 +14,7 @@
 
 package rafthttp
 
-import "CloudcadeSF/etcd/raft/raftpb"
+import "github.com/CloudcadeSF/etcd/raft/raftpb"
 
 type encoder interface {
 	// encode encodes the given message to an output stream.

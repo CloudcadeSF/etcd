@@ -19,8 +19,8 @@ import (
 	"errors"
 	"io"
 
-	"CloudcadeSF/etcd/pkg/pbutil"
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/pkg/pbutil"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 // messageEncoder is a encoder that can encode all kinds of messages.

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "CloudcadeSF/etcd/raft/raftpb"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 type raftLog struct {

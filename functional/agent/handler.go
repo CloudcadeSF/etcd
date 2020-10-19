@@ -25,9 +25,9 @@ import (
 	"syscall"
 	"time"
 
-	"CloudcadeSF/etcd/functional/rpcpb"
-	"CloudcadeSF/etcd/pkg/fileutil"
-	"CloudcadeSF/etcd/pkg/proxy"
+	"github.com/CloudcadeSF/etcd/functional/rpcpb"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 )

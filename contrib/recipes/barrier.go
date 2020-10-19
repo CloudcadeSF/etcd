@@ -17,8 +17,8 @@ package recipe
 import (
 	"context"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 // Barrier creates a key in etcd to block processes, then deletes the key to

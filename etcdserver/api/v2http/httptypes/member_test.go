@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 )
 
 func TestMemberUnmarshal(t *testing.T) {

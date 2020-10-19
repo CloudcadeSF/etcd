@@ -15,8 +15,8 @@
 package mvcc
 
 import (
-	"CloudcadeSF/etcd/lease"
-	"CloudcadeSF/etcd/pkg/traceutil"
+	"github.com/CloudcadeSF/etcd/lease"
+	"github.com/CloudcadeSF/etcd/pkg/traceutil"
 )
 
 type readView struct{ kv KV }

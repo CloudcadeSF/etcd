@@ -17,8 +17,8 @@ package clientv3
 import (
 	"context"
 
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/pkg/types"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 
 	"google.golang.org/grpc"
 )

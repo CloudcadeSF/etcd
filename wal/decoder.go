@@ -21,10 +21,10 @@ import (
 	"io"
 	"sync"
 
-	"CloudcadeSF/etcd/pkg/crc"
-	"CloudcadeSF/etcd/pkg/pbutil"
-	"CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/wal/walpb"
+	"github.com/CloudcadeSF/etcd/pkg/crc"
+	"github.com/CloudcadeSF/etcd/pkg/pbutil"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/wal/walpb"
 )
 
 const minSectorSize = 512

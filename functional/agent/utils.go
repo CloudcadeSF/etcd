@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
 )
 
 // TODO: support separate WAL directory

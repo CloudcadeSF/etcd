@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/functional/rpcpb"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

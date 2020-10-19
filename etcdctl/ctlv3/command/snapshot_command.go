@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"CloudcadeSF/etcd/clientv3/snapshot"
+	"github.com/CloudcadeSF/etcd/clientv3/snapshot"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

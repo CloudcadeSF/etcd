@@ -29,18 +29,18 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver"
-	"CloudcadeSF/etcd/etcdserver/api/etcdhttp"
-	"CloudcadeSF/etcd/etcdserver/api/rafthttp"
-	"CloudcadeSF/etcd/etcdserver/api/v2http"
-	"CloudcadeSF/etcd/etcdserver/api/v2v3"
-	"CloudcadeSF/etcd/etcdserver/api/v3client"
-	"CloudcadeSF/etcd/etcdserver/api/v3rpc"
-	"CloudcadeSF/etcd/pkg/debugutil"
-	runtimeutil "CloudcadeSF/etcd/pkg/runtime"
-	"CloudcadeSF/etcd/pkg/transport"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/etcdhttp"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/rafthttp"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2http"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2v3"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3client"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v3rpc"
+	"github.com/CloudcadeSF/etcd/pkg/debugutil"
+	runtimeutil "github.com/CloudcadeSF/etcd/pkg/runtime"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
@@ -50,7 +50,7 @@ import (
 	"google.golang.org/grpc/keepalive"
 )
 
-var plog = capnslog.NewPackageLogger("CloudcadeSF/etcd", "embed")
+var plog = capnslog.NewPackageLogger("github.com/CloudcadeSF/etcd", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.

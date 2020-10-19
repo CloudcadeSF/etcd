@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/expect"
+	"github.com/CloudcadeSF/etcd/pkg/expect"
 )
 
 func waitReadyExpectProc(exproc *expect.ExpectProcess, readyStrs []string) error {

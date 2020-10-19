@@ -32,7 +32,7 @@ import (
 	"sort"
 	"testing"
 
-	pb "CloudcadeSF/etcd/raft/raftpb"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 func TestFollowerUpdateTermFromMessage(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"CloudcadeSF/etcd/client"
-	"CloudcadeSF/etcd/pkg/pathutil"
+	"github.com/CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/pkg/pathutil"
 )
 
 func NewRoleCommands() cli.Command {

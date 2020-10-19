@@ -18,7 +18,7 @@ package main
 import (
 	"flag"
 
-	"CloudcadeSF/etcd/functional/agent"
+	"github.com/CloudcadeSF/etcd/functional/agent"
 
 	"go.uber.org/zap"
 )

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"CloudcadeSF/etcd/etcdctl/ctlv2"
-	"CloudcadeSF/etcd/etcdctl/ctlv3"
+	"github.com/CloudcadeSF/etcd/etcdctl/ctlv2"
+	"github.com/CloudcadeSF/etcd/etcdctl/ctlv3"
 )
 
 const (

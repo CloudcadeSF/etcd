@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 
 	"google.golang.org/grpc/grpclog"
 )

@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	etcd "CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/pkg/testutil"
+	etcd "github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 
 	"google.golang.org/grpc/naming"
 )

@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/version"
 )
 
 var (

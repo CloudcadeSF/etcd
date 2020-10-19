@@ -20,7 +20,7 @@ import (
 	"log"
 	"sort"
 
-	"CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/client"
 )
 
 func ExampleKeysAPI_directory() {

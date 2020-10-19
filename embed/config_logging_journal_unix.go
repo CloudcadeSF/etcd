@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"CloudcadeSF/etcd/pkg/logutil"
+	"github.com/CloudcadeSF/etcd/pkg/logutil"
 
 	"go.uber.org/zap/zapcore"
 )

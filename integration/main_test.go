@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestMain(m *testing.M) {

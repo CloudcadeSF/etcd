@@ -16,7 +16,7 @@ package command
 
 import (
 	"github.com/urfave/cli"
-	"CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/client"
 )
 
 // NewSetDirCommand returns the CLI command for "setDir".

@@ -22,8 +22,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/pkg/tlsutil"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/pkg/tlsutil"
 )
 
 type yamlConfig struct {

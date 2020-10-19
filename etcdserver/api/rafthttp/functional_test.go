@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	stats "CloudcadeSF/etcd/etcdserver/api/v2stats"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft"
-	"CloudcadeSF/etcd/raft/raftpb"
+	stats "github.com/CloudcadeSF/etcd/etcdserver/api/v2stats"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 func TestSendMessage(t *testing.T) {

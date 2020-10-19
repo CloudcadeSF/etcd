@@ -21,9 +21,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"CloudcadeSF/etcd/embed"
-	"CloudcadeSF/etcd/functional/rpcpb"
-	"CloudcadeSF/etcd/pkg/proxy"
+	"github.com/CloudcadeSF/etcd/embed"
+	"github.com/CloudcadeSF/etcd/functional/rpcpb"
+	"github.com/CloudcadeSF/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

@@ -17,10 +17,10 @@ package command
 import (
 	"fmt"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/snapshot"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	spb "CloudcadeSF/etcd/mvcc/mvccpb"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/snapshot"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	spb "github.com/CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 type fieldsPrinter struct{ printer }

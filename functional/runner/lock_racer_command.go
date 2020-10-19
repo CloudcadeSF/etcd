@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"CloudcadeSF/etcd/clientv3/concurrency"
+	"github.com/CloudcadeSF/etcd/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

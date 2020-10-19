@@ -26,17 +26,17 @@ import (
 	"strings"
 	"time"
 
-	"CloudcadeSF/etcd/embed"
-	"CloudcadeSF/etcd/etcdserver"
-	"CloudcadeSF/etcd/etcdserver/api/etcdhttp"
-	"CloudcadeSF/etcd/etcdserver/api/v2discovery"
-	"CloudcadeSF/etcd/pkg/fileutil"
-	pkgioutil "CloudcadeSF/etcd/pkg/ioutil"
-	"CloudcadeSF/etcd/pkg/osutil"
-	"CloudcadeSF/etcd/pkg/transport"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/proxy/httpproxy"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/embed"
+	"github.com/CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/etcdhttp"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2discovery"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
+	pkgioutil "github.com/CloudcadeSF/etcd/pkg/ioutil"
+	"github.com/CloudcadeSF/etcd/pkg/osutil"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/proxy/httpproxy"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -45,7 +45,7 @@ import (
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("CloudcadeSF/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/CloudcadeSF/etcd", "etcdmain")
 
 var (
 	dirMember = dirType("member")

@@ -20,10 +20,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/etcdserver/api/v2store"
-	"CloudcadeSF/etcd/etcdserver/api/v2v3"
-	"CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2store"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/v2v3"
+	"github.com/CloudcadeSF/etcd/integration"
 
 	"google.golang.org/grpc/grpclog"
 )

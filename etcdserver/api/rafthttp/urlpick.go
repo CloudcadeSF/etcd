@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"sync"
 
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 )
 
 type urlPicker struct {

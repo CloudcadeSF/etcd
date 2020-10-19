@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"CloudcadeSF/etcd/pkg/srv"
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/srv"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 
 	"go.uber.org/zap"
 )

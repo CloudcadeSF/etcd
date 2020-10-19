@@ -18,11 +18,11 @@ import (
 	"context"
 	"sync"
 
-	"CloudcadeSF/etcd/auth"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/lease"
-	"CloudcadeSF/etcd/mvcc"
-	"CloudcadeSF/etcd/pkg/traceutil"
+	"github.com/CloudcadeSF/etcd/auth"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/lease"
+	"github.com/CloudcadeSF/etcd/mvcc"
+	"github.com/CloudcadeSF/etcd/pkg/traceutil"
 )
 
 type authApplierV3 struct {

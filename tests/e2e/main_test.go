@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 var (

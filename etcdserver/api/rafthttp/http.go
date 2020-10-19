@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver/api/snap"
-	pioutil "CloudcadeSF/etcd/pkg/ioutil"
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/snap"
+	pioutil "github.com/CloudcadeSF/etcd/pkg/ioutil"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/version"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

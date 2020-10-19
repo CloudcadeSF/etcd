@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

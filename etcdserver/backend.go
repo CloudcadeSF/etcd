@@ -19,11 +19,11 @@ import (
 	"os"
 	"time"
 
-	"CloudcadeSF/etcd/etcdserver/api/snap"
-	"CloudcadeSF/etcd/lease"
-	"CloudcadeSF/etcd/mvcc"
-	"CloudcadeSF/etcd/mvcc/backend"
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/etcdserver/api/snap"
+	"github.com/CloudcadeSF/etcd/lease"
+	"github.com/CloudcadeSF/etcd/mvcc"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

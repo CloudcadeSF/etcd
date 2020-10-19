@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 )
 
 // copyTLSFiles clones certs files to dst directory.

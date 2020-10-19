@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/fileutil"
-	"CloudcadeSF/etcd/wal/walpb"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/wal/walpb"
 	"go.uber.org/zap"
 )
 

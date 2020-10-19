@@ -17,9 +17,9 @@ package grpcproxy
 import (
 	"context"
 
-	"CloudcadeSF/etcd/clientv3"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/proxy/grpcproxy/cache"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/proxy/grpcproxy/cache"
 )
 
 type kvProxy struct {

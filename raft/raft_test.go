@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	pb "CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/raft/tracker"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/tracker"
 )
 
 // nextEnts returns the appliable entries and updates the applied index

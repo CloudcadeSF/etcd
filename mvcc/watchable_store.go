@@ -15,14 +15,14 @@
 package mvcc
 
 import (
-	"CloudcadeSF/etcd/auth"
+	"github.com/CloudcadeSF/etcd/auth"
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/lease"
-	"CloudcadeSF/etcd/mvcc/backend"
-	"CloudcadeSF/etcd/mvcc/mvccpb"
-	"CloudcadeSF/etcd/pkg/traceutil"
+	"github.com/CloudcadeSF/etcd/lease"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
+	"github.com/CloudcadeSF/etcd/mvcc/mvccpb"
+	"github.com/CloudcadeSF/etcd/pkg/traceutil"
 	"go.uber.org/zap"
 )
 

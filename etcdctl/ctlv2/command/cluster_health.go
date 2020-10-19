@@ -24,7 +24,7 @@ import (
 	"os/signal"
 	"time"
 
-	"CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/client"
 
 	"github.com/urfave/cli"
 )

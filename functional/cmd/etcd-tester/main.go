@@ -18,7 +18,7 @@ package main
 import (
 	"flag"
 
-	"CloudcadeSF/etcd/functional/tester"
+	"github.com/CloudcadeSF/etcd/functional/tester"
 
 	"go.uber.org/zap"
 )

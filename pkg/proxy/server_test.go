@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 
 	"go.uber.org/zap"
 )

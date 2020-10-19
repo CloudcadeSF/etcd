@@ -19,7 +19,7 @@ package httptypes
 import (
 	"encoding/json"
 
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 )
 
 type Member struct {

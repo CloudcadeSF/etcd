@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 )
 
 func timeParse(value string) *time.Time {

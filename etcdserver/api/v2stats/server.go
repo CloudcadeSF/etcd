@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"CloudcadeSF/etcd/raft"
+	"github.com/CloudcadeSF/etcd/raft"
 )
 
 // ServerStats encapsulates various statistics about an EtcdServer and its

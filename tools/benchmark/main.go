@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"CloudcadeSF/etcd/tools/benchmark/cmd"
+	"github.com/CloudcadeSF/etcd/tools/benchmark/cmd"
 )
 
 func main() {

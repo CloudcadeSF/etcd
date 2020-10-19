@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"CloudcadeSF/etcd/client"
-	"CloudcadeSF/etcd/pkg/transport"
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/client"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"
@@ -39,7 +39,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("CloudcadeSF/etcd", "discovery")
+	plog = capnslog.NewPackageLogger("github.com/CloudcadeSF/etcd", "discovery")
 
 	ErrInvalidURL           = errors.New("discovery: invalid URL")
 	ErrBadSizeKey           = errors.New("discovery: size key is bad")

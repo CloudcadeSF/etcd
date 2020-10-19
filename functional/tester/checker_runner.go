@@ -14,7 +14,7 @@
 
 package tester
 
-import "CloudcadeSF/etcd/functional/rpcpb"
+import "github.com/CloudcadeSF/etcd/functional/rpcpb"
 
 type runnerChecker struct {
 	ctype              rpcpb.Checker

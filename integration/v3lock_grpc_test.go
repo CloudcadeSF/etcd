@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	lockpb "CloudcadeSF/etcd/etcdserver/api/v3lock/v3lockpb"
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/pkg/testutil"
+	lockpb "github.com/CloudcadeSF/etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 // TestV3LockLockWaiter tests that a client will wait for a lock, then acquire it

@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/pkg/types"
 )
 
 var (

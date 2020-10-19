@@ -19,8 +19,8 @@ import (
 	"net/url"
 	"os"
 
-	"CloudcadeSF/etcd/pkg/expect"
-	"CloudcadeSF/etcd/pkg/fileutil"
+	"github.com/CloudcadeSF/etcd/pkg/expect"
+	"github.com/CloudcadeSF/etcd/pkg/fileutil"
 )
 
 var (

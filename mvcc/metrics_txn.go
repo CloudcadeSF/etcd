@@ -14,7 +14,7 @@
 
 package mvcc
 
-import "CloudcadeSF/etcd/lease"
+import "github.com/CloudcadeSF/etcd/lease"
 
 type metricsTxnWrite struct {
 	TxnWrite

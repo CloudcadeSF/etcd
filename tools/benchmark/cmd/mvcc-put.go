@@ -21,9 +21,9 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"CloudcadeSF/etcd/lease"
-	"CloudcadeSF/etcd/pkg/report"
-	"CloudcadeSF/etcd/pkg/traceutil"
+	"github.com/CloudcadeSF/etcd/lease"
+	"github.com/CloudcadeSF/etcd/pkg/report"
+	"github.com/CloudcadeSF/etcd/pkg/traceutil"
 
 	"github.com/spf13/cobra"
 )

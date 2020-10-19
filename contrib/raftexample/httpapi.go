@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 )
 
 // Handler for a http based key-value store backed by raft

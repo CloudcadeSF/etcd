@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestNewURLs(t *testing.T) {

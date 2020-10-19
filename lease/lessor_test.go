@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/mvcc/backend"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

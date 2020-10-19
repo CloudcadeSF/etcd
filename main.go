@@ -13,16 +13,16 @@
 // limitations under the License.
 
 // Package main is a simple wrapper of the real etcd entrypoint package
-// (located at CloudcadeSF/etcd/etcdmain) to ensure that etcd is still
-// "go getable"; e.g. `go get CloudcadeSF/etcd` works as expected and
+// (located at github.com/CloudcadeSF/etcd/etcdmain) to ensure that etcd is still
+// "go getable"; e.g. `go get github.com/CloudcadeSF/etcd` works as expected and
 // builds a binary in $GOBIN/etcd
 //
 // This package should NOT be extended or modified in any way; to modify the
-// etcd binary, work in the `CloudcadeSF/etcd/etcdmain` package.
+// etcd binary, work in the `github.com/CloudcadeSF/etcd/etcdmain` package.
 //
 package main
 
-import "CloudcadeSF/etcd/etcdmain"
+import "github.com/CloudcadeSF/etcd/etcdmain"
 
 func main() {
 	etcdmain.Main()

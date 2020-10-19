@@ -15,8 +15,8 @@
 package rafthttp
 
 import (
-	"CloudcadeSF/etcd/pkg/types"
-	"CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/pkg/types"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

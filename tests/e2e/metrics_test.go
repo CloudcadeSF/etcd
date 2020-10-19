@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/version"
 )
 
 func TestV3MetricsSecure(t *testing.T) {

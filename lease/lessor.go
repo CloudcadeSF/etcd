@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
-	"CloudcadeSF/etcd/lease/leasepb"
-	"CloudcadeSF/etcd/mvcc/backend"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"github.com/CloudcadeSF/etcd/lease/leasepb"
+	"github.com/CloudcadeSF/etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

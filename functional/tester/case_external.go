@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	"CloudcadeSF/etcd/functional/rpcpb"
+	"github.com/CloudcadeSF/etcd/functional/rpcpb"
 )
 
 type caseExternal struct {

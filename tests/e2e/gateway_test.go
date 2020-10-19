@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"CloudcadeSF/etcd/pkg/expect"
+	"github.com/CloudcadeSF/etcd/pkg/expect"
 )
 
 var (

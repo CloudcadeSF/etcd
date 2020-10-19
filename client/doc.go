@@ -21,7 +21,7 @@ Create a Config and exchange it for a Client:
 		"net/http"
 		"context"
 
-		"CloudcadeSF/etcd/client"
+		"github.com/CloudcadeSF/etcd/client"
 	)
 
 	cfg := client.Config{

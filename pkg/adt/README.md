@@ -16,7 +16,7 @@ For example,
 import (
     "fmt"
 
-    "CloudcadeSF/etcd/pkg/adt"
+    "github.com/CloudcadeSF/etcd/pkg/adt"
 )
 
 func main() {

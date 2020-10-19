@@ -15,8 +15,8 @@
 package confchange
 
 import (
-	pb "CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/raft/tracker"
+	pb "github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/raft/tracker"
 )
 
 // toConfChangeSingle translates a conf state into 1) a slice of operations creating

@@ -14,7 +14,7 @@
 
 package tester
 
-import "CloudcadeSF/etcd/functional/rpcpb"
+import "github.com/CloudcadeSF/etcd/functional/rpcpb"
 
 func inject_SIGTERM_ETCD(clus *Cluster, idx int) error {
 	return clus.sendOp(idx, rpcpb.Operation_SIGTERM_ETCD)

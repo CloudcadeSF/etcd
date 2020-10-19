@@ -39,8 +39,8 @@ RUN rm -rf ${GOROOT} \
   && mkdir -p ${GOPATH}/src ${GOPATH}/bin \
   && go version
 
-RUN mkdir -p ${GOPATH}/src/CloudcadeSF/etcd
-WORKDIR ${GOPATH}/src/CloudcadeSF/etcd
+RUN mkdir -p ${GOPATH}/src/github.com/CloudcadeSF/etcd
+WORKDIR ${GOPATH}/src/github.com/CloudcadeSF/etcd
 
 ADD ./scripts/install-marker.sh /tmp/install-marker.sh
 

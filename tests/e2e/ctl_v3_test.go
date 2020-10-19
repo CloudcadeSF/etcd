@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/flags"
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/version"
+	"github.com/CloudcadeSF/etcd/pkg/flags"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/version"
 )
 
 func TestCtlV3Version(t *testing.T) { testCtl(t, versionTest) }

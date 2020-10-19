@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/integration"
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/integration"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 )
 
 // TestMain sets up an etcd cluster if running the examples.

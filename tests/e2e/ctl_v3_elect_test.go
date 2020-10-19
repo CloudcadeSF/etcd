@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/expect"
+	"github.com/CloudcadeSF/etcd/pkg/expect"
 )
 
 func TestCtlV3Elect(t *testing.T) {

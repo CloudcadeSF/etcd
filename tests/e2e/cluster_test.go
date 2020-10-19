@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"CloudcadeSF/etcd/etcdserver"
+	"github.com/CloudcadeSF/etcd/etcdserver"
 )
 
 const etcdProcessBasePort = 20000

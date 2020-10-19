@@ -15,7 +15,7 @@
 package types
 
 import (
-	"CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
 	"reflect"
 	"testing"
 )

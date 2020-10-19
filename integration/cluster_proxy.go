@@ -19,10 +19,10 @@ package integration
 import (
 	"sync"
 
-	"CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/namespace"
-	"CloudcadeSF/etcd/proxy/grpcproxy"
-	"CloudcadeSF/etcd/proxy/grpcproxy/adapter"
+	"github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/namespace"
+	"github.com/CloudcadeSF/etcd/proxy/grpcproxy"
+	"github.com/CloudcadeSF/etcd/proxy/grpcproxy/adapter"
 )
 
 var (

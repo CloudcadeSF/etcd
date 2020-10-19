@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"CloudcadeSF/etcd/pkg/testutil"
-	"CloudcadeSF/etcd/pkg/transport"
+	"github.com/CloudcadeSF/etcd/pkg/testutil"
+	"github.com/CloudcadeSF/etcd/pkg/transport"
 )
 
 func TestV2Set(t *testing.T) {

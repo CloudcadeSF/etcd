@@ -15,7 +15,7 @@
 package clientv3
 
 import (
-	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	pb "github.com/CloudcadeSF/etcd/etcdserver/etcdserverpb"
 )
 
 // CompactOp represents a compact operation.

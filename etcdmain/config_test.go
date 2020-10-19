@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"CloudcadeSF/etcd/embed"
+	"github.com/CloudcadeSF/etcd/embed"
 	"sigs.k8s.io/yaml"
 )
 

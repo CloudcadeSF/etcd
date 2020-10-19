@@ -17,8 +17,8 @@ package command
 import (
 	"os"
 
-	v3 "CloudcadeSF/etcd/clientv3"
-	"CloudcadeSF/etcd/clientv3/snapshot"
+	v3 "github.com/CloudcadeSF/etcd/clientv3"
+	"github.com/CloudcadeSF/etcd/clientv3/snapshot"
 
 	"github.com/olekukonko/tablewriter"
 )

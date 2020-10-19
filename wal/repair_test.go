@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"CloudcadeSF/etcd/raft/raftpb"
-	"CloudcadeSF/etcd/wal/walpb"
+	"github.com/CloudcadeSF/etcd/raft/raftpb"
+	"github.com/CloudcadeSF/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

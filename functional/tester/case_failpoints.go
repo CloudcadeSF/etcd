@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	"CloudcadeSF/etcd/functional/rpcpb"
+	"github.com/CloudcadeSF/etcd/functional/rpcpb"
 )
 
 type failpointStats struct {
