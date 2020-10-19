@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/embed"
-	"go.etcd.io/etcd/pkg/fileutil"
-	"go.etcd.io/etcd/pkg/testutil"
+	"CloudcadeSF/etcd/clientv3"
+	"CloudcadeSF/etcd/embed"
+	"CloudcadeSF/etcd/pkg/fileutil"
+	"CloudcadeSF/etcd/pkg/testutil"
 
 	"go.uber.org/zap"
 )

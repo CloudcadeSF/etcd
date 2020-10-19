@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/v2error"
-	"go.etcd.io/etcd/pkg/types"
+	"CloudcadeSF/etcd/etcdserver/api/v2error"
+	"CloudcadeSF/etcd/pkg/types"
 
 	"github.com/jonboulle/clockwork"
 )

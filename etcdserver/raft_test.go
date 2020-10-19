@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/membership"
-	"go.etcd.io/etcd/pkg/mock/mockstorage"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft"
-	"go.etcd.io/etcd/raft/raftpb"
+	"CloudcadeSF/etcd/etcdserver/api/membership"
+	"CloudcadeSF/etcd/pkg/mock/mockstorage"
+	"CloudcadeSF/etcd/pkg/pbutil"
+	"CloudcadeSF/etcd/pkg/types"
+	"CloudcadeSF/etcd/raft"
+	"CloudcadeSF/etcd/raft/raftpb"
 	"go.uber.org/zap"
 )
 

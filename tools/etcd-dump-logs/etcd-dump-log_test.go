@@ -24,12 +24,12 @@ import (
 	"strings"
 	"testing"
 
-	"go.etcd.io/etcd/auth/authpb"
-	"go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/fileutil"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal"
+	"CloudcadeSF/etcd/auth/authpb"
+	"CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"CloudcadeSF/etcd/pkg/fileutil"
+	"CloudcadeSF/etcd/pkg/pbutil"
+	"CloudcadeSF/etcd/raft/raftpb"
+	"CloudcadeSF/etcd/wal"
 	"go.uber.org/zap"
 )
 

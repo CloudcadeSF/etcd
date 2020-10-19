@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/version"
+	stats "CloudcadeSF/etcd/etcdserver/api/v2stats"
+	"CloudcadeSF/etcd/pkg/testutil"
+	"CloudcadeSF/etcd/pkg/types"
+	"CloudcadeSF/etcd/raft/raftpb"
+	"CloudcadeSF/etcd/version"
 
 	"go.uber.org/zap"
 )

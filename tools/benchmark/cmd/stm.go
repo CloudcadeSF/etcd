@@ -23,10 +23,10 @@ import (
 	"os"
 	"time"
 
-	v3 "go.etcd.io/etcd/clientv3"
-	v3sync "go.etcd.io/etcd/clientv3/concurrency"
-	"go.etcd.io/etcd/etcdserver/api/v3lock/v3lockpb"
-	"go.etcd.io/etcd/pkg/report"
+	v3 "CloudcadeSF/etcd/clientv3"
+	v3sync "CloudcadeSF/etcd/clientv3/concurrency"
+	"CloudcadeSF/etcd/etcdserver/api/v3lock/v3lockpb"
+	"CloudcadeSF/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

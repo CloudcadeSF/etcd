@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/concurrency"
-	"go.etcd.io/etcd/etcdserver/api/v2error"
-	"go.etcd.io/etcd/etcdserver/api/v2store"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"CloudcadeSF/etcd/clientv3"
+	"CloudcadeSF/etcd/clientv3/concurrency"
+	"CloudcadeSF/etcd/etcdserver/api/v2error"
+	"CloudcadeSF/etcd/etcdserver/api/v2store"
+	"CloudcadeSF/etcd/mvcc/mvccpb"
 )
 
 // store implements the Store interface for V2 using

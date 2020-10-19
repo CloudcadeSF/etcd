@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"CloudcadeSF/etcd/lease"
+	"CloudcadeSF/etcd/mvcc/backend"
+	"CloudcadeSF/etcd/mvcc/mvccpb"
 	"go.uber.org/zap"
 )
 

@@ -18,8 +18,8 @@ import (
 	"context"
 	"sync"
 
-	"go.etcd.io/etcd/clientv3"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
+	"CloudcadeSF/etcd/clientv3"
+	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
 )
 
 // watchBroadcast broadcasts a server watcher to many client watchers.

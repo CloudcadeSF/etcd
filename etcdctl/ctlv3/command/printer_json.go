@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/clientv3/snapshot"
+	"CloudcadeSF/etcd/clientv3/snapshot"
 )
 
 type jsonPrinter struct{ printer }

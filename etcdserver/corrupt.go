@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/pkg/traceutil"
-	"go.etcd.io/etcd/pkg/types"
+	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
+	"CloudcadeSF/etcd/mvcc"
+	"CloudcadeSF/etcd/pkg/traceutil"
+	"CloudcadeSF/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

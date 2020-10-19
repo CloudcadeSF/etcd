@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	"go.etcd.io/etcd/pkg/testutil"
+	"CloudcadeSF/etcd/etcdserver/api/v3rpc/rpctypes"
+	"CloudcadeSF/etcd/pkg/testutil"
 
 	"google.golang.org/grpc"
 )

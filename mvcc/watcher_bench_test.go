@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
+	"CloudcadeSF/etcd/lease"
+	"CloudcadeSF/etcd/mvcc/backend"
 
 	"go.uber.org/zap"
 )

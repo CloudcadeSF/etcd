@@ -23,10 +23,10 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/fileutil"
+	"CloudcadeSF/etcd/pkg/fileutil"
 
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal/walpb"
+	"CloudcadeSF/etcd/raft/raftpb"
+	"CloudcadeSF/etcd/wal/walpb"
 	"go.uber.org/zap"
 )
 

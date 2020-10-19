@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/pkg/expect"
+	"CloudcadeSF/etcd/pkg/expect"
 )
 
 func TestCtlV3Lock(t *testing.T) {

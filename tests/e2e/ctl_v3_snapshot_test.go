@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3/snapshot"
-	"go.etcd.io/etcd/pkg/expect"
-	"go.etcd.io/etcd/pkg/testutil"
+	"CloudcadeSF/etcd/clientv3/snapshot"
+	"CloudcadeSF/etcd/pkg/expect"
+	"CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestCtlV3Snapshot(t *testing.T) { testCtl(t, snapshotTest) }

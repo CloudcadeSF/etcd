@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/naming"
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/testutil"
+	"CloudcadeSF/etcd/clientv3"
+	"CloudcadeSF/etcd/clientv3/naming"
+	"CloudcadeSF/etcd/integration"
+	"CloudcadeSF/etcd/pkg/testutil"
 
 	gnaming "google.golang.org/grpc/naming"
 )

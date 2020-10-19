@@ -29,18 +29,18 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/etcdhttp"
-	"go.etcd.io/etcd/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/etcdserver/api/v2http"
-	"go.etcd.io/etcd/etcdserver/api/v2v3"
-	"go.etcd.io/etcd/etcdserver/api/v3client"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc"
-	"go.etcd.io/etcd/pkg/debugutil"
-	runtimeutil "go.etcd.io/etcd/pkg/runtime"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/version"
+	"CloudcadeSF/etcd/etcdserver"
+	"CloudcadeSF/etcd/etcdserver/api/etcdhttp"
+	"CloudcadeSF/etcd/etcdserver/api/rafthttp"
+	"CloudcadeSF/etcd/etcdserver/api/v2http"
+	"CloudcadeSF/etcd/etcdserver/api/v2v3"
+	"CloudcadeSF/etcd/etcdserver/api/v3client"
+	"CloudcadeSF/etcd/etcdserver/api/v3rpc"
+	"CloudcadeSF/etcd/pkg/debugutil"
+	runtimeutil "CloudcadeSF/etcd/pkg/runtime"
+	"CloudcadeSF/etcd/pkg/transport"
+	"CloudcadeSF/etcd/pkg/types"
+	"CloudcadeSF/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
@@ -50,7 +50,7 @@ import (
 	"google.golang.org/grpc/keepalive"
 )
 
-var plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "embed")
+var plog = capnslog.NewPackageLogger("CloudcadeSF/etcd", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.

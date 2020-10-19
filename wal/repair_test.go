@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal/walpb"
+	"CloudcadeSF/etcd/raft/raftpb"
+	"CloudcadeSF/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

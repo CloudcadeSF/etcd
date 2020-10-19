@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/contrib/recipes"
-	"go.etcd.io/etcd/pkg/testutil"
+	"CloudcadeSF/etcd/clientv3"
+	"CloudcadeSF/etcd/contrib/recipes"
+	"CloudcadeSF/etcd/pkg/testutil"
 )
 
 func TestBarrierSingleNode(t *testing.T) {

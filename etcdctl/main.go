@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/etcdctl/ctlv2"
-	"go.etcd.io/etcd/etcdctl/ctlv3"
+	"CloudcadeSF/etcd/etcdctl/ctlv2"
+	"CloudcadeSF/etcd/etcdctl/ctlv3"
 )
 
 const (

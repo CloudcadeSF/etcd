@@ -17,8 +17,8 @@ package raft
 import (
 	"errors"
 
-	pb "go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/raft/tracker"
+	pb "CloudcadeSF/etcd/raft/raftpb"
+	"CloudcadeSF/etcd/raft/tracker"
 )
 
 // ErrStepLocalMsg is returned when try to step a local raft message

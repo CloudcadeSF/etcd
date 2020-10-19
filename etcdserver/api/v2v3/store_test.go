@@ -19,9 +19,9 @@ import (
 	"strings"
 	"testing"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v2store"
-	"go.etcd.io/etcd/etcdserver/api/v2v3"
+	"CloudcadeSF/etcd/clientv3"
+	"CloudcadeSF/etcd/etcdserver/api/v2store"
+	"CloudcadeSF/etcd/etcdserver/api/v2v3"
 )
 
 // TODO: fix tests

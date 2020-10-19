@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/raft/raftpb"
+	"CloudcadeSF/etcd/raft/raftpb"
 )
 
 type cluster struct {

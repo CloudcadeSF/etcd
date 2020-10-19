@@ -23,8 +23,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/concurrency"
+	"CloudcadeSF/etcd/clientv3"
+	"CloudcadeSF/etcd/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

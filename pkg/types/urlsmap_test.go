@@ -15,7 +15,7 @@
 package types
 
 import (
-	"go.etcd.io/etcd/pkg/testutil"
+	"CloudcadeSF/etcd/pkg/testutil"
 	"reflect"
 	"testing"
 )

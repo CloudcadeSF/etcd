@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/v2error"
-	"go.etcd.io/etcd/pkg/testutil"
+	"CloudcadeSF/etcd/etcdserver/api/v2error"
+	"CloudcadeSF/etcd/pkg/testutil"
 
 	"github.com/jonboulle/clockwork"
 )

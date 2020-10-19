@@ -15,7 +15,7 @@
 package clientv3
 
 import (
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
+	pb "CloudcadeSF/etcd/etcdserver/etcdserverpb"
 )
 
 type CompareTarget int

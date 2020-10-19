@@ -19,10 +19,10 @@ package integration
 import (
 	"sync"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/namespace"
-	"go.etcd.io/etcd/proxy/grpcproxy"
-	"go.etcd.io/etcd/proxy/grpcproxy/adapter"
+	"CloudcadeSF/etcd/clientv3"
+	"CloudcadeSF/etcd/clientv3/namespace"
+	"CloudcadeSF/etcd/proxy/grpcproxy"
+	"CloudcadeSF/etcd/proxy/grpcproxy/adapter"
 )
 
 var (
